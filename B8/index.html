@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+    
+        }
+        .star {
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+            clip-path: path('M251.04 1.18 328.29 165.77 501.04 192.16 376.04 320.27 405.55 501.18 251.04 415.77 96.53 501.18 126.04 320.27 1.04 192.16 173.78 165.77 251.04 1.18Z');
+            animation: rotate 1s infinite linear;
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        </style>
+<div class="star"></div>
+</body>
+</html>
